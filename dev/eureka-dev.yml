@@ -5,7 +5,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/ 
-    #Eureka客户端健康检查交给actuator，进行更加全面的检查维护
+    #Eureka客户端健康检查交给actuator，进行更加全面的检查维护eee
     healthcheck:
-      enabled: true        
+      enabled: true   
+
+      
       
